@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #ffffff, #ffffff);
+    height: 100px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+body:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("jm.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+
+header{
+    background-color: #a6a6a6;
+    border: 3px solid black;
+    height: 100px;
+    background-image: url(logo.png);
+    background-size: 100px;
+    opacity: 0.2;
+    filter: blur(2px);
+}
+.info1{
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 100%;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+    position: relative;
+    bottom: 120px;
+    border: black 3px solid;
+    width: 270px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.info1:hover{
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 100%;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    bottom: 50%;
+    top: 50%;
+    position: relative;
+    bottom: 120px;
+    border: black 3px solid;
+}
+
+.info2{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 100%;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    position: relative;
+    bottom: 180px;
+    left: 6px;
+}
+
+header{
+    background-color: rgb(71, 71, 71);
+    border: 3px none black;
+    height: 100px;
+    background-image: url(logo.png);
+    background-size: 100px;
+    opacity: 0.3;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #000431;
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #090808;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000431;
+    transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: black;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+
+.txt_field::placeholder{
+    border: none;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #000431;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+.input1{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #01012d;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+input:hover{
+    border-color: #2691d9;
+    transition: .5s;
+}
+
+label{
+    color: black;
+    position: relative;
+    bottom: 23px;
+    left: 40px;
+
+}
+
+.check{
+    height: 20px;
+    position: relative;
+    left: -150px;
+}
+
+.kvkk{
+    color: black;
+    text-decoration: none;
+}
+
+.kvkk:hover{
+    color: #000431;
+    text-decoration: underline;
+}
+ .download{
+    text-decoration: none;
+ }

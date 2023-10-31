@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="logo">
+        <img src="" alt="">
+        <a href="https://idusem.idu.edu.tr" class="info1">Sürekli Eğitim Merkezi</a>
+        <p class="info2">İZMİR DEMOKRASİ ÜNİVERSİTESİ</p>
+    </div>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Formu Doldurunuz</h2>
+                <form method="post" id="myForm">
+				<input type="text" class="field" placeholder="Ad Soyad" required>
+				<input type="email" class="field" placeholder="Email" required>
+				<input type="datetime" class="field" placeholder="Doğum Tarihi" required>
+                <input type="checkbox" required class="check">
+                <label><a href="#" class="kvkk">KVKK</a> okudum, kabul ediyorum.</label>
+                <input type="submit" value="Onayla" class="btn"> 
+                </form>
+			</div>
+		</div>
+	</div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          window.location.href = "download.html";
+        });
+      </script>
+</body>
+</html>

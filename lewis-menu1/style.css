@@ -1,0 +1,142 @@
+body {
+    background-image: url(https://images.freeimages.com/365/images/istock/previews/8783/87834303-cafe-menu-retro-blackboard-background-powerpoint-widescreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  img{
+    width: 20%;
+    float: left;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background: linear-gradient(360deg, rgb(157, 68, 0), rgb(255,211,11));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  svg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    margin-bottom: 20px
+  }
+  
+  hr {
+    height: 2px;
+    border: none;
+    background: black;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2, h3 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+h3{
+    margin-top: 40px;
+}
+  
+  .flavor, .tatli, .kahvalti, small, .ana-yemek, .ice {
+    text-align: left;
+    width: 75%;
+    padding-top: 15px;
+  }
+  
+  .fiyat {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .info {
+    margin-bottom: 5px;
+  }
+  
+
+.ilk{
+    background-color: #333;
+    border: 1px solid #666;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin: 5px auto;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ilk:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.ilk:active{
+    background-color: #fff;
+    color: #333;
+}
+
+.iki{
+    background-color: #333;
+    border: 1px solid #666;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+}
+
+.iki:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.iki:active{
+    background-color: #fff;
+    color: #333;
+}
